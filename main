@@ -1,9 +1,6 @@
 import os
 from rembg import remove
 
-input_path = '/Users/***/product.jpg'
-output_path = '/Users/***/product_removed.jpg'
-
 # list to store files
 dir_path = '/Users/ryoaraki/Downloads/product_photo'
 list = []
@@ -16,8 +13,8 @@ print(list)
 
 #for each photo, remove background
 for photo in list:
-    input_path= '/Users/ryoaraki/Downloads/product_photo/'+photo
-    output_path= '/Users/ryoaraki/Downloads/product_photo/removed/'+photo+'-removed.jpg'
+    input_path= '/Users/***/product_photo/'+photo
+    output_path= '/Users/***/product_photo/removed/'+photo+'-removed.jpg'
     with open(input_path, 'rb') as i:
         with open(output_path, 'wb') as o:
             input = i.read()
