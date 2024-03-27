@@ -1,8 +1,8 @@
 import os
 from rembg import remove
 
-input_path = '/Users/ryoaraki/Downloads/G0001-LEO_side.jpg'
-output_path = '/Users/ryoaraki/Downloads/0015-BLK_removed.jpg'
+input_path = '/Users/***/product.jpg'
+output_path = '/Users/***/product_removed.jpg'
 
 # list to store files
 dir_path = '/Users/ryoaraki/Downloads/product_photo'
